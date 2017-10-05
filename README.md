@@ -17,6 +17,7 @@ public class Ejercicio1{
     System.out.print("Buenos dias Francis");
   }
 }
+
 ```
 
 Para compilar el programa teclea lo siguiente:
