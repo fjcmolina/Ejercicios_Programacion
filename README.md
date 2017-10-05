@@ -5,8 +5,7 @@ Ejercicios de la asignatura **Programación** de 1º DAW ( Desarrollo de Aplicac
 
 A continuacion se muestra el programa *"Hola Mundo"* en Java.
 
-```
-/**
+```/**
  * Salida de datos por pantalla
  *
  * 1. Escribe un programa que muestre tu nombre por pantalla
@@ -19,9 +18,7 @@ public class Ejercicio1{
 }
 
 ```
-
 Para compilar el programa teclea lo siguiente:
 
-```
-javac Ejercicio1.java
+```javac Ejercicio1.java
 ```
