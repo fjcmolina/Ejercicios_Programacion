@@ -21,8 +21,8 @@ public class Ejercicio1{
 
 ```
 Para compilar el programa teclea lo siguiente:
-
-```javac Ejercicio1.java
+```
+javac Ejercicio1.java
 ```
 Puedes ejecutar el programa mediante el comando java
 ```console
