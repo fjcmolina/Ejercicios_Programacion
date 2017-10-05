@@ -22,20 +22,18 @@ public class Ejercicio1{
 ```
 Para compilar el programa teclea lo siguiente:
 
+```javac Ejercicio1.java
 ```
-javac Ejercicio1.java
-
-```
-Puedes ejecutar el prgroama mediante el comando java
+Puedes ejecutar el programa mediante el comando java
 ```console
 java Ejercicio1
 ```
 
 ## Que se esudia en Programación
 
-*Lenguaje de programacion Java*
-*Comando de Linux*
-*Git y Github*
+*Lenguaje de programacion Java* :book:
+*Comando de Linux* :penguin: 
+*Git y Github* :octocat:
 
 ## Bibliografia
 
