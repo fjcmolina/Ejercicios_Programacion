@@ -31,9 +31,9 @@ java Ejercicio1
 
 ## Que se esudia en Programación
 
-*Lenguaje de programacion Java* :book:
-*Comando de Linux* :penguin: 
-*Git y Github* :octocat:
+* *Lenguaje de programacion Java* :book:
+* *Comando de Linux* :penguin: 
+* *Git y Github* :octocat:
 
 ## Bibliografia
 
