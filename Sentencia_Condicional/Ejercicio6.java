@@ -12,14 +12,18 @@ public class Ejercicio6{
     System.out.println("Vamos a calcular el tiempo que tarda en caer un objeto");
     
     double h;
-    double g = 9.81;
+    final double g = 9.81;
     
     System.out.print("Introduce desde que altura va a caer el objeto: ");
     linea = System.console().readLine();
     h =Double.parseDouble( linea );
-    
     double t = Math.sqrt((2*h)/g);
-    System.out.printf("El tiempo que tardara es %.2f segundos",t);
+    
+    if (h <= 0){
+      System.out.print("La altura debe ser mayor que 0");
+    }else{
+      System.out.printf("El tiempo que tardara es %.2f segundos",t);
+    }
     
   }
 }

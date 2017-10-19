@@ -114,9 +114,8 @@ public class Ejercicio10{
           horoscopo = "capricornio";
         }
       break;
+      default:
     }
     System.out.print("Su horoscopo es " + horoscopo);
-    
-  
   }
 }

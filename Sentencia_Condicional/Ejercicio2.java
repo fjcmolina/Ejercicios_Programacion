@@ -23,6 +23,9 @@ public class Ejercicio2{
     if (((hora >= 21) && (hora <= 0)) || ((hora >= 0) && (hora <=5))) {
       System.out.print("Buenas noches");
       }
+    if ((hora >= 24) || (hora < 0)){
+      System.out.print("No existe esta hora");
+    }
     
   }
 }

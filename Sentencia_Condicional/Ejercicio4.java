@@ -13,17 +13,16 @@ public class Ejercicio4{
     System.out.println("Vamos a calcular el salario semanal de un trabajador");
     System.out.print("Introduzca las horas trabajadas durante la semana:");
     
-    int horas = Integer.parseInt(System.console().readLine());
+    double horas = Double.parseDouble(System.console().readLine());
     String linea =  System.console().readLine();
-    int salario = 12 * horas;
+    double salario = 12 * horas;
     
-    if (horas <= 40){
-      System.out.printf("El salario del trabajador por %d horas sera de %d euros a la semana", horas, salario);
+    if (horas > 40){
+      double horasExtra = (horas - 40);
+      System.out.println("El sueldo de la semana es  " + (salario + (horasExtra * 16)) + " euros");
     }
-    
-    else{
-      salario = salario + ((horas - 40) *16);
-      System.out.printf("El salario del trabajador por %d horas sera de %d euros a la semana", horas, salario);
+    if (horas <= 40){
+      System.out.printf("El sueldo semana es de %.2f euros",salario);
     }
   }
 }

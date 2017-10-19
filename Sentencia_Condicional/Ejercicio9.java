@@ -11,8 +11,11 @@ public class Ejercicio9{
     String linea;
     System.out.println("Vamos a calcular una ecuacion de segundo grado");
     
-    double x1,x2;
-    double a, b, c;
+    double x1;
+    double x2;
+    double a;
+    double b; 
+    double c;
     
     System.out.print("Introduce el valor de a: ");
     linea = System.console().readLine();
@@ -26,33 +29,26 @@ public class Ejercicio9{
     linea = System.console().readLine();
     c = Double.parseDouble( linea );
     
-    double raiz = Math.sqrt((b*b)-(4*a*c));
+    double discriminante = (b*b)-(4*a*c);
     
-    if ((a == 0) && (b == 0) && (c ==0)){
-      System.out.print("La ecuacion tiene infinitas soluciones");
-    }
     
-    if ((a !=0) && (b !=0) && (c !=0)){
+    
+    if (discriminante < 0 ){
       System.out.print("La ecuacion no tiene solucion");
-    }
-    
-    if ((a != 0) && (b !=0) &&  (c == 0)){
-      System.out.println("x1 = 0");
-      System.out.println("x2 = " + (-b/a));
-    }
-    
-    if ((a == 0) && (b != 0) && (c != 0)){
-      System.out.print("X1 y x2 tiene el mismo valor que es " + (-c / b));
-    }
-    if ((a !=0) && (b !=0 ) && (c != 0)){
-      
-      if (raiz <0 ){
-      System.out.print("La ecuacion no tiene solucion");
+      }else {
+        System.out.println("x1 = " + (-b + Math.sqrt(discriminante))/(2 * a));
+        System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
       }
-      else{
-        System.out.print("x1 = " + (-b + raiz)/(2*a));
-        System.out.print("x2 = " + (-b - raiz)/(2*a));
+    if ((a != 0) && (b !=0) && (c == 0)){
+        System.out.println("x1 = 0");
+        System.out.println("x2 = " + (-b/a));
+    }else if ((a == 0) && (b != 0) && (c != 0)){
+      System.out.print("X1 y x2 tiene el mismo valor que es " + (-c / b));
+      }
+    else if ((a == 0) && (b == 0) && (c ==0)){
+      System.out.print("La ecuacion es una identidad");
       }
     }
   }
-}
+  
+

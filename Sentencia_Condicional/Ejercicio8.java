@@ -32,21 +32,15 @@ public class Ejercicio8{
     System.out.printf("La media de sus notas es %.2f\n",media);
     
     if (media < 5){
-      System.out.print("Insuficiente");
-    }
-    
-    if (media >= 5 && media < 6){
-      System.out.print("Suficiente");
-    }
-    if (media >= 6 && media < 8){
-      System.out.print("Bien");
-    }
-    
-    if (media >= 8 && media < 9){
-      System.out.print("Notable");
-    }
-    if (media >= 9){
-      System.out.print("Sobresaliente");
+      System.out.print("Tienes un Insuficiente");
+    }else if (media < 6){
+      System.out.print("Tienes un Suficiente");
+    }else if (media < 8){
+      System.out.print("Tienes un Bien");
+    }else if (media < 9){
+      System.out.print("Tienes un Notable");
+    }else{
+      System.out.print("Tienes un Sobresaliente");
     }
   }
 }
