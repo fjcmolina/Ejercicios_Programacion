@@ -81,15 +81,15 @@ public class Ejercicio16{
     // Mostramos el resultado del test
     
     if ( puntos <= 10 ) {
-      System.out.print("Tu pareja te es fiel. Por ahora...");
+      System.out.print("¡Enhorabuena! tu pareja parece ser totalmente fiel.");
     }
     
     if ( (puntos > 11 ) && (puntos <= 22) ) {
-      System.out.print("Ten cuidado con tu pareja, algo trama y puede que no te este siendo fiel");    
+      System.out.print("Quizás exista el peligro de otra persona en su vida o en su mente, aunque seguramente será algo sin importancia. No bajes la guardia");    
     }
     
     if ( puntos >= 22 ) {
-      System.out.print("Lo siento, pero usted esta siendo victima de infidelidad");
+      System.out.print("Tu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.");
     }
   }
   }
