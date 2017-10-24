@@ -76,6 +76,6 @@ public class Ejercicio12{
         puntos++;
         }
         
-        System.out.println("\nHas obtenido " + puntos + " puntos sobre 5");    
+        System.out.println("\nHas obtenido " + puntos + " puntos sobre 9");    
       }
 }

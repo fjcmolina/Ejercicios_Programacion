@@ -7,7 +7,7 @@
 public class Ejercicio17{
   public static void main(String[] args) {
     
-    System.out.println("Vamos a decirte la ultima cifra del numeor introducido");
+    System.out.println("Vamos a decirte la ultima cifra del numero introducido");
     
     System.out.print("Introduce un numero ");
     int num = Integer.parseInt(System.console().readLine());

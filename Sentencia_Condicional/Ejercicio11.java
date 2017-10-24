@@ -20,9 +20,5 @@ public class Ejercicio11{
     
     System.out.printf("Faltan %d segundos hasta media noche", segundosMediaNoche);
     
-    
-    
-    
-    
   }
 }

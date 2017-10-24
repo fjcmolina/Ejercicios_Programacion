@@ -11,27 +11,27 @@ public class Ejercicio13{
         
     System.out.println("Este programa ordena tres números ");
     System.out.println("Introduce el primer numero:");
-    int a = Integer.parseInt(System.console().readLine());
+    int num1 = Integer.parseInt(System.console().readLine());
     System.out.println("Introduce el segundo numero:");
-    int b = Integer.parseInt(System.console().readLine());
+    int num2 = Integer.parseInt(System.console().readLine());
     System.out.println("Introduce el tercer numero:");
-    int c = Integer.parseInt(System.console().readLine());
+    int num3 = Integer.parseInt(System.console().readLine());
     
-    if (a > b) {
-      aux = a;
-      a = b;
-      b = aux;
-    }else if (b > c) {
-      aux = b;
-      b = c;
-      c = aux;
-    }else if (a > c) {
-      aux = a;
-      a = b;
-      c = aux;
+    if (num1 > num2) {
+      aux = num1;
+      num1 = num2;
+      num2 = aux;
+    }else if (num2 > num3) {
+      aux = num2;
+      num2 = num3;
+      num3 = aux;
+    }else if (num1 > num2) {
+      aux = num1;
+      num1= num2;
+      num2 = aux;
     }
         
-    System.out.println("Los números introducidos ordenados de menor a mayor son " + a + ", " + b + " y " + c ); 
+    System.out.println("Los números introducidos ordenados de menor num1mayor son " + num1+ ", " + num2 + " y " + num3 ); 
   }
 }
 
