@@ -1,5 +1,5 @@
 /**
- * Sentencia Condicional
+ * Bucles
  *
  * 2. Muestra los numeros multiplos de 5 de 0 a 100 utilizando un bucle while
  */

@@ -1,5 +1,5 @@
 /**
- * Sentencia Condicional
+ * Bucles
  *
  * 7. Realiza el control de acceso a una caja fuerte. La combinacion sera un
  *    numero de 4 cifras. El programa nos pedira la combinacion para abrirla.
@@ -28,7 +28,7 @@
           
       intentos--;
     }
-    while((intentos > 0) && (intentos <= 4));
+    while((intentos > 0) && (intentos <= 4) );
     
     if (correcta){
       System.out.println("La caja fuerte se ha abierto");

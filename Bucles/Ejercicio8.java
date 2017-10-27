@@ -1,5 +1,5 @@
 /**
- * Sentencia Condicional
+ * Bucles
  *
  * 8. Muestra la tabla de multiplicar de un numero introducido por teclado
  */ 
