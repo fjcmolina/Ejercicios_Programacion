@@ -33,7 +33,7 @@
       num2 = aux;
     }
     for(int i = num1; i <= num2; i += 7) {
-      System.out.print(i);
+      System.out.println(i);
     }
   }
 }
