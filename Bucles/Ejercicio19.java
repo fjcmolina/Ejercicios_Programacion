@@ -25,7 +25,7 @@
         System.out.print(" ");
         }
         
-      for(int i = 1; i <= altura * 2; i++){
+      for(int i = 1; i <= (altura * 2) - 1; i++){
         System.out.print(pintar);
         }
         
