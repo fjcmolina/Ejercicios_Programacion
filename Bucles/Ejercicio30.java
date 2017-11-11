@@ -10,5 +10,7 @@
  
  public class Ejercicio30{
   public static void main(String[] args) {
+    
+    System.out.print("Vamos a realizar un programa que calcule las horas transcuriddas entre dos dias");
   }
 }
