@@ -5,24 +5,20 @@ public class Ejercicio4{
     System.out.println("Introduce un numero: ");
     int numero = Integer.parseInt(System.console().readLine());
     
-    int resultado = 0;
     int numeroReves = 0;
-    int temporal = numero;
+    int numeroReves2 = 0;
     
-    while (temporal > 0){
-      numeroReves = (numeroReves * 10) + (temporal % 10);
-      temporal /= 10;
-    }
-    temporal = numero;
-    
-    while(temporal > 0){
-      numeroReves = temporal % 10;
-      if((temporal != 0) && (temporal != 8)){
-        resultado = (resultado * 10) + numeroReves;
+    while (numero > 0){
+      numeroReves = (numeroReves * 10) + (numero % 10);
+      numero /= 10;
+      if((numeroReves % 10 == 0) || (numeroReves % 10 == 8)){
+        numeroReves /= 10;
         }
-      temporal /= 10;
+    }
+    while(numeroReves > 0){
+      numeroReves2 = ((numeroReves2 * 10) + (numeroReves % 10));
+      numeroReves /= 10;
       }
-    
-    System.out.print("Despues de haber sido comido por el gusano el numero se queda: " + resultado);
+    System.out.print("Despues de haber sido comido por el gusano el numero se queda: " + numeroReves2);
   }
 }
