@@ -23,7 +23,7 @@ public class Ejercicio02 {
     simbolo[7] = '+';
     simbolo[8] = 'Q';
     
-    // Al no introducir valores a un elemento del array por defecto toma el valor 0
+    // Al no introducir valores a un elemento del array por defecto toma el valor de un espacio
     
     System.out.println("El array contiene los siguientes valores:");
     
