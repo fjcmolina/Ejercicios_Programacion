@@ -44,7 +44,7 @@ public class Ejercicio10 {
     for (int i = 0; i < pares; i++) {
       numero[i] = par[i];
     }
-    //Los impares se coloan en las posiciones restantes del array
+    //Los impares se colocan en las posiciones restantes del array
     for (int i = pares; i < 20; i++) {
       numero[i] = impar[i - pares];
     }
