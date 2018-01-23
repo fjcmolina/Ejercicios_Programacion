@@ -1,30 +1,24 @@
 /*
- *    Arrays Bidimensionales
+ *     Arrays Bidiminesionales
  *
- * 2. Escribe un programa que pida 20 números enteros. Estos números se deben
- *    introducir en un array de 4 filas por 5 columnas. El programa mostrará las
- *    sumas parciales de filas y columnas igual que si de una hoja de cálculo se
- *    tratara. La suma total debe aparecer en la esquina inferior derecha.
+ * 3. Modifica el programa anterior de tal forma que los números que se introducen
+ *    en el array se generen de forma aleatoria (valores entre 100 y 999).
  */
-package ejercicio02;
+package ejercicio03;
 
 /**
  *
  * @author Francis
  */
-import java.util.Scanner;
-
-public class Ejercicio02 {
+public class Ejercicio03 {
   public static void main(String[] args) {
-     Scanner s = new Scanner(System.in);
-     
-     int[][] num = new int [4][5];
-     
+    
+    int[][] num = new int [4][5];
+    
      //Introduccion de datos en el array
      for(int fila = 0; fila < 4; fila++) {
       for(int columna = 0; columna < 5; columna++) {
-        System.out.print("Fila " + fila + ", columna " + columna + ": ");
-        num[fila][columna] = s.nextInt();
+          num[fila][columna] = (int)(Math.random() * 900) + 100;
       }
     System.out.println();
     }
