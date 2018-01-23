@@ -44,8 +44,8 @@ public class Ejercicio05 {
       }
     System.out.println();
     } 
-   System.out.println("El maximo es " + maximo + " en la fila " +filaMaximo+ " y la columna "+columnaMaximo);
-   System.out.println("El minimo es " + minimo + " en la fila " +filaMinimo+ " y la columna "+columnaMinimo);
+   System.out.println("El maximo es " + maximo + " en la fila " +(filaMaximo +1)+ " y la columna "+(columnaMaximo+1));
+   System.out.println("El minimo es " + minimo + " en la fila " +(filaMinimo +1)+ " y la columna "+(columnaMinimo + 1));
   }
   
 }
