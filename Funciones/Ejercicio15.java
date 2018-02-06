@@ -1,12 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *  Funciones
+ *
+ * 15. Muestra los números primos que hay entre 1 y 1000.
  */
-package Ejercicio15;
+package ejercicio15;
 
 import matematicas.Varias;
-
 /**
  *
  * @author Francis
