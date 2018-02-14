@@ -67,6 +67,7 @@ public class Ejercicio02 {
         case 7:
           System.out.println("El kilometraje total de los vehiculos es " + Vehiculo.getKilometrosTotales() + " km");
           break;
+        default:
       }
     }
   }
