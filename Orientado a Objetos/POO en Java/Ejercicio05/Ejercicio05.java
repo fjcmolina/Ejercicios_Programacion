@@ -16,21 +16,17 @@ public class Ejercicio05 {
 
   public static void main(String[] args) {
     Pizza p1 = new Pizza("Margarita", "Mediana");
-    p1.sirve();
-    System.out.println(p1);
-
-    Pizza p2 = new Pizza("Carbonara", "Familiar");
+    Pizza p2 = new Pizza("Funghi", "Familiar");
+    
     p2.sirve();
+    
+    Pizza p3 = new Pizza("Cuatro quesos", "Mediana");
+    
+    System.out.println(p1);
     System.out.println(p2);
-
-    Pizza p3 = new Pizza("Prosciutto", "Pequeña");
     System.out.println(p3);
     
-    System.out.println();
-    
     p2.sirve();
-
-    System.out.println();
 
     System.out.println("Pedidas: " + Pizza.getTotalPedidas());
     System.out.println("Servidas: " + Pizza.getTotalServidas());
