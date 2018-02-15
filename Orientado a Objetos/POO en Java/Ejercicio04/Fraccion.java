@@ -51,7 +51,18 @@ public class Fraccion {
   }
 
   public Fraccion simplifica() {
-    return new Fraccion(n, d);
+    int s = this.signo;
+    int n = this.numerador;
+    int d = this.denominador;
+
+    for (int i = 2; i < Math.min(this.numerador, this.denominador); i++) {
+      while (((n % i) == 0) && ((d % i) == 0)) {
+        n /= i;
+        d /= i;
+      }
+    }
+
+    return new Fraccion(s * n, d);
   }
 
   public Fraccion multiplica(int n) {
