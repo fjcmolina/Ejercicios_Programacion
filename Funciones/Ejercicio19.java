@@ -129,7 +129,7 @@ public class Ejercicio19 {
     
     //evitamos los 0 mal leidos en los extremos 
     while (decimal > 1) {
-      binario = Varias.pegaPorDetras(binario, (int)decimal % 2)
+      binario = Varias.pegaPorDetras(binario, (int)decimal % 2);
       decimal = decimal / 2;
     }
     binario = matematicas.Varias.pegaPorDetras(binario, 1);
