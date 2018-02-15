@@ -33,16 +33,14 @@ public class Ejercicio07 {
       System.out.println();
       System.out.println("Elige una de las anteriores opciones");
       opcion = s.nextInt();
-      System.out.println();
-      
+
       if (opcion == 1) {
 
         System.out.println("En la zona principal hay " + principal.getEntradasPorVender());
         System.out.println("En la zona compraVenta hay " + compraVenta.getEntradasPorVender());
         System.out.println("En la zona vip hay " + vip.getEntradasPorVender());
       }
-      System.out.println();
-      
+
       if (opcion == 2) {
         System.out.println("1.Principal");
         System.out.println("2.CompraVenta");
