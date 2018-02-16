@@ -16,7 +16,7 @@ public class Array {
    * @param n tamaño del array
    * @return Array con n números aleatorios entre min y max
    */
-  public static int[] generraArrayInt(int n, int maximo, int minimo) {
+  public static int[] generaArrayInt(int n, int maximo, int minimo) {
     int[] x = new int[n];
 
     for (int i = 1; i < n; i++) {
