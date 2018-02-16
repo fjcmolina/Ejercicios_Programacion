@@ -52,11 +52,11 @@ public class ArrayBi {
    */
   public static int[] columnaDeArrayBiInt(int[][] x, int j) {
 
-    int[] col = new int[x.length];
+    int[] columna = new int[x.length];
     for (int i = 0; i < x.length; i++) {
-      col[i] = x[i][j];
+      columna[i] = x[i][j];
     }
-    return col;
+    return columna;
 
   }
 
