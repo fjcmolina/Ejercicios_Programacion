@@ -32,7 +32,7 @@ public class Array {
    * @return minimo del array
    */
   public static int minimoArrayInt(int x[]) {
-    int minimo = Integer.MIN_VALUE;
+    int minimo = 99999;
 
     for (int n : x) {
       if (n < minimo) {
@@ -50,7 +50,7 @@ public class Array {
    * @return maximo del array
    */
   public static int maximoArrayInt(int x[]) {
-    int maximo = Integer.MAX_VALUE;
+    int maximo = 0;
 
     for (int n : x) {
       if (n > maximo) {
