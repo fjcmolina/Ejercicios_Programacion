@@ -1,5 +1,5 @@
 /*
- *  Funciones de arrays
+ *    Funciones de arrays
  */
 package array;
 
@@ -134,10 +134,9 @@ public class Array {
    *
    * @param n número entero, posiciones a rotar
    * @param x Array de números enteros,
-   * @return  Array de números enteros, tras rotar el array n
-   * posiciones a la derecha
+   * @return Array de números enteros, tras rotar el array n posiciones a la
+   * derecha
    */
-
   public static int[] rotaDerechaArrayInt(int n, int[] x) {
 
     int[] voltea = new int[x.length];
@@ -157,9 +156,9 @@ public class Array {
    * izquierda
    *
    * @param n número entero, posiciones a rotar
-   * @param , Array de números enteros
-   * @return  Array de números enteros, tras rotar el array n
-   * posiciones a la izquierda
+   * @param  Array de números enteros
+   * @return Array de números enteros, tras rotar el array n posiciones a la
+   * izquierda
    */
   public static int[] rotaIzquierdaArrayInt(int n, int[] x) {
     return rotaDerechaArrayInt((x.length - n), x);
