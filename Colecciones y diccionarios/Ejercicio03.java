@@ -8,6 +8,7 @@ package ejercicio03;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 /**
  *
@@ -17,18 +18,15 @@ public class Ejercicio03 {
 
   public static void main(String[] args) {
 
-    ArrayList<Integer> a = new ArrayList<>();
+    Scanner s = new Scanner(System.in);
 
-    a.add(67);
-    a.add(78);
-    a.add(10);
-    a.add(4);
-    a.add(97);
-    a.add(38);
-    a.add(50);
-    a.add(7);
-    a.add(62);
-    a.add(76);
+    ArrayList<Integer> a = new ArrayList<>();
+    
+    System.out.println("Introduce 10 numeros:");
+    for (int i = 0; i < 10; i++) {
+      int num = s.nextInt();
+      a.add(num);
+    }
 
     System.out.println("\nNúmeros en el orden original:");
     for (int numero : a) {
@@ -37,7 +35,7 @@ public class Ejercicio03 {
 
     Collections.sort(a);
 
-    System.out.println("\nNúmeros en el orden original:");
+    System.out.println("\nNúmeros ordenados:");
     for (int numero : a) {
       System.out.println(numero);
     }
