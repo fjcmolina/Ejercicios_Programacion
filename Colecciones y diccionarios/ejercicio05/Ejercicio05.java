@@ -38,9 +38,9 @@ public class Ejercicio05 {
     int limiteSuperior;
 
     //  DISCOS
-    a.add(new Disco("GASA41", "Wim Mertens", "Maximazing the Audience", "instrumental", 5));
-    a.add(new Disco("FGHQ64", "Metallica", "Black a", "hard rock", 3));
-    a.add(new Disco("TYUI89", "Supersubmarina", "Viento de cara", "pop rock", 4));
+    a.add(new Disco("GASA41", "Rels B", "Lejos de ti", "Rap", 5));
+    a.add(new Disco("FGHQ64", "Kidd Keo", "Superstsrs", "Trap", 3));
+    a.add(new Disco("TYUI89", "Bob Marley", "No woman no cry", "reggae", 4));
 
     //  MENU
     do {
