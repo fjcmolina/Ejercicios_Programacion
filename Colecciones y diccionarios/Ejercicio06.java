@@ -24,7 +24,7 @@ public class Ejercicio06 {
 
     Scanner s = new Scanner(System.in);
 
-    boolean aceeso = false;
+    boolean acceso = false;
     int intentos = 3;
 
     HashMap<String, String> login = new HashMap<>();
@@ -43,7 +43,7 @@ public class Ejercicio06 {
       if (login.containsKey(usuario)) {
         if (login.get(usuario).equals(contraseña)) {
           System.out.println("\nHa accedido al área restringida");
-          aceeso = true;
+          acceso = true;
         } else {
           System.out.println("Contraseña incorrecta");
         }
@@ -53,12 +53,12 @@ public class Ejercicio06 {
 
       intentos--;
 
-      if (!aceeso && (intentos > 0)) {
+      if (!acceso && (intentos > 0)) {
         System.out.println("Le quedan " + (intentos) + " intentos");
       }
-    } while ((!aceeso) && (intentos > 0));
+    } while ((!acceso) && (intentos > 0));
     
-    if (!aceeso) {
+    if (!acceso) {
       System.out.print("Lo siento, puede acceder al area restringida");
     }
   }
