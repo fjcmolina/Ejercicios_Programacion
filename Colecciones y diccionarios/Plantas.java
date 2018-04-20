@@ -45,11 +45,11 @@ public class Plantas {
     NombrePropiedades.put("ayahuasca", "Se usa en el tratamiento de la depresión y la ansiedad así como en los problemas de personalidad y esquizofrenia.");
 
     System.out.print("Por favor, introduzca el nombre de una planta: ");
-    String nombre = s.nextLine();
+    String nombre = s.nextLine().toLowerCase();
 
     if (NombreComunCientifico.containsKey(nombre) && NombrePropiedades.containsKey(nombre)) {
-      System.out.println("Nombre Cientifico: " + NombreComunCientifico.get(nombre));
-      System.out.println("Propiedades: " + NombrePropiedades.get(nombre));
+      System.out.println("Nombre Cientifico: " + NombreComunCientifico.get(nombre).toLowerCase());
+      System.out.println("Propiedades: " + NombrePropiedades.get(nombre).toLowerCase());
     } else {
       System.out.println("Lo siento, esa planta no existe");
     }
